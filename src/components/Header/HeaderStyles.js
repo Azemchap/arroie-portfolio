@@ -23,27 +23,27 @@ export const Div1 = styled.div`
   flex-direction: row;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 1 / 4;
+    grid-area: 1 / 1 / 1 / 3;
   }
 `
 export const Div2 = styled.div`
-  grid-area: 1 / 3 / 1 / 4;
+  grid-area: 1 / 3 / 1 / 3;
   display: flex;
-  grid-gap: 4em;
+  grid-gap: 2em;
   margin-top: 0.75em;
   justify-content: space-between;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 2 / 2 / 3 / 5;
+    grid-area: 2 / 2 / 3 / 3;
   }
 `
 export const Div3 = styled.div`
-  grid-area: 1 / 5 / 1 / 6;
+  grid-area: 1 / 3 / 0 / 3;
   display: flex;
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
-    grid-area: 1 / 4 / 1 / 6;
+    grid-area: 1 / 3 / 1 / 3;
   }
 `
 
