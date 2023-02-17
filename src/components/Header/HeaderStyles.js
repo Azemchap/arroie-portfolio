@@ -1,5 +1,5 @@
-import { IoIosArrowDropdown } from 'react-icons/io';
-import styled from 'styled-components';
+import { IoIosArrowDropdown } from 'react-icons/io'
+import styled from 'styled-components'
 
 export const Container = styled.div`
   display: grid;
@@ -16,35 +16,36 @@ export const Container = styled.div`
     grid-column-gap: 0.5rem;
     grid-row-gap: 0.5rem;
   }
-`;
+`
 export const Div1 = styled.div`
-  grid-area: 1 / 1 / 2 / 2;
+  grid-area: 1 / 1 / 3 / 3;
   display: flex;
   flex-direction: row;
   align-content: center;
   @media ${(props) => props.theme.breakpoints.sm} {
-    grid-area: 1 / 1 / 2 / 3;
+    grid-area: 1 / 1 / 1 / 4;
   }
-`;
+`
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 1 / 3 / 1 / 4;
   display: flex;
+  grid-gap: 4em;
   margin-top: 0.75em;
   justify-content: space-between;
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
-`;
+`
 export const Div3 = styled.div`
-  grid-area: 1 / 5 / 2 / 6;
+  grid-area: 1 / 5 / 1 / 6;
   display: flex;
   justify-content: space-around;
   align-items: center;
   @media ${(props) => props.theme.breakpoints.sm} {
     align-items: center;
-    grid-area: 1 / 4 / 2 / 6;
+    grid-area: 1 / 4 / 1 / 6;
   }
-`;
+`
 
 // Navigation Links
 export const NavLink = styled.a`
@@ -61,7 +62,7 @@ export const NavLink = styled.a`
     padding: 0.5rem;
     font-size: 1.7rem;
   }
-`;
+`
 
 /// DropDown Contact
 export const ContactDropDown = styled.button`
@@ -89,7 +90,7 @@ export const ContactDropDown = styled.button`
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 0;
   }
-`;
+`
 
 export const NavProductsIcon = styled(IoIosArrowDropdown)`
   margin-left: 8px;
@@ -107,7 +108,7 @@ export const NavProductsIcon = styled(IoIosArrowDropdown)`
     margin: 2px 0 0 2px;
     width: 15px;
   }
-`;
+`
 
 
 // Social Icons 

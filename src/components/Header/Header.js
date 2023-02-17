@@ -8,7 +8,7 @@ const Header = () => (
     <Div1>
       <Link href="/">
         <a style={{ display: 'flex', alignItems: 'center', color: "white" }}>
-          <span style={{ marginLeft: 10, marginTop: 7, fontSize: 20 }} >Chenwie Arroie</span>
+          <span style={{ marginLeft: 10, marginRight: 40, marginTop: 7, fontSize: 24, fontWeight: 800 }} >Chenwie Arroie</span>
         </a>
       </Link>
     </Div1>
