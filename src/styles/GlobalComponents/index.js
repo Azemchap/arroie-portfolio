@@ -5,11 +5,12 @@ export const Section = styled.section`
   flex-direction: ${(props) => props.row ? "row" : "column"};
   padding: ${(props) => props.nopadding ? "0" : "32px 48px 0"} ;
   margin: 0 auto;
-  max-width: 1040px;
+  max-width: 1440px;
   box-sizing: content-box;
   position: relative;
   overflow: hidden;
   grid-template-columns: 1fr 1fr;
+  gap: 40px;
 
   @media ${(props) => props.theme.breakpoints.md} {
     padding: 24px 48px 0;
@@ -282,4 +283,4 @@ export const LinkIconImg = styled.div`
 
 export const Link = styled.a`
   color: ${(props) => props.theme.colors.link}
-`;
+`
