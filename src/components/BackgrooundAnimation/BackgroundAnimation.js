@@ -4,7 +4,7 @@ import Image from 'next/image'
 const BackgroundAnimation = () => (
   <div>
     <Image
-      src="/images/arroie.png"
+      src="/images/arroie.jpg"
       alt="Picture of Arroie"
       width={400}
       height={500}
